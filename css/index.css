@@ -1,0 +1,265 @@
+body {
+    background: transparent url('../images/bj.jpg') no-repeat bottom scroll;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 132px;
+}
+
+.title span {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    letter-spacing: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    padding-left: 104px;
+    padding-right: 80px;
+    display: block;
+    margin: auto;
+}
+
+.content .maintitle {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.content .maintitle .tit {
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content .maintitle .btn-group {
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+}
+
+.content .maintitle .btn-group .tag {
+    font-size: 18px;
+    padding-right: 30px;
+    color: #fff;
+}
+
+.content .maintitle .btn-group .btn {
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+.contxt .fl {
+    width: 780px;
+    border-right: 1px solid #fff;
+}
+
+.contxt .fr {
+    width: 780px;
+    border-right: 1px solid #fff;
+    margin-right: 90px;
+}
+
+.rightline {
+    position: absolute;
+    right: -37px;
+    top: 240px;
+    height: 80px;
+    text-align: center;
+    background: transparent url('../images/ty.png') no-repeat top scroll;
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 60px;
+    padding: 0 30px;
+    width: auto;
+    white-space: nowrap;
+    z-index: 9999;
+}
+
+.rightline4 {
+    right: -52px !important;
+    line-height: 20px;
+    height: 107px;
+    padding-top: 27px;
+    text-align: left;
+}
+
+.rightscroll {
+    width: 1px;
+    background: #124a3c;
+    height: 100vh;
+    position: fixed;
+    right: 120px;
+    z-index: 8888;
+}
+
+.contxt {
+    padding: 30px 0;
+    position: relative;
+}
+
+.contxt .tit {
+    text-align: left;
+    margin-bottom: 30px;
+    /*padding-left: 30px;*/
+}
+
+.contxt .tit em {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    font-style: normal;
+    vertical-align: baseline;
+}
+
+.contxt .tit span {
+    font-size: 24px;
+    color: #fff;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.contxt .desc {
+    text-align: left;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.contxt .png {
+    height: 10px;
+    width: 30px;
+    margin: 5px auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle+;
+}
+
+.contxt .png img {
+    display: block;
+    width: 100%;
+}
+
+.contxt .png:hover img {
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contxt .png:hover ::after {
+    content: '';
+}
+
+.downlist {
+    display: block;
+    padding: 0 30px;
+}
+
+.downlist .sortlist .maintit {
+    padding-top: 30px;
+    color: #09bef2;
+    padding-bottom: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.downlist .sortlist .maintit img {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.downlist .sortlist .downdesc {
+    display: none;
+}
+
+.downlist .sortlist .downdesc .png {
+    position: relative;
+}
+
+.downlist .sortlist .downdesc .png:hover img {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.downlist .sortlist .desc {
+    padding: 0 30px;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.downlist .sortlist .desc .png {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.downlist .sortlist .desc .png img {
+    height: 30px;
+}
+
+.center {
+    font-size: 12px;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: semi-bold;
+    padding: 60px 0;
+}
+
+.pngbox {
+    width: 900px;
+    display: block;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+.pngbox .btn-group {
+    padding: 30px 0;
+}
+
+.pngbox .btn {
+    width: 200px;
+    position: relative;
+    height: 20px;
+}
+
+.pngbox .png {
+    left: 0;
+    top: 0;
+    width: 30px;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+.pngbox .btn:hover img {
+    position: absolute;
+    width: 800px;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
